@@ -1,0 +1,67 @@
+### Python 核心 ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### PyCharm (JetBrains) 配置文件 ###
+.idea/
+# 如果你希望保留项目运行配置，可以取消下面这一行的注释
+# !.idea/runConfigurations/
+*.iml
+cmake-build-*/
+.DS_Store
+
+### 虚拟环境 (重要) ###
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+# 如果你使用 uv
+.pdm-python
+.python-version
+
+### 环境变量与敏感信息 ###
+.env
+.env.test
+.env.production
+*.key
+*.pem
+secrets.toml
+
+### 缓存与日志 ###
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.log
+log/
+
+### Docker 相关 ###
+.dockerignore
+# 通常保留 Dockerfile，但忽略构建时产生的临时数据
